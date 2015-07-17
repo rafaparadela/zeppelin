@@ -10,74 +10,75 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
+title: "Lambda World 2015"
+email: "lambda.es@gmail.com"
+description: "A functional programming event in Cádiz, the most ancient city still standing in Western Europe"
+baseurl: ""
+url: "http://rafaparadela.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
+organizerName: "47 Degrees"
+organizerAlternateName: "47 Degrees"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerEmail: "lambda.es@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://www.47deg.com"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "event, functional programming, scala, kotlin, swift, F#, JAVA8, developers, Cadiz"
+twitterAccount: "@lambda_world"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4pUrl: "/blog/call-for-papers/"
+c4sponsorsUrl: "/assets/Lambda_World_Sponsors.pdf"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+# - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://jorgegalindocruces.typeform.com/to/wN2T6Q", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://jorgegalindocruces.typeform.com/to/wN2T6Q", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+heroImage: "home-background.jpg"
+heroTitle: "A fuctional event about <typeout>"
+eventDate: "October 24th, 2015"
+typeoutTextValues: '"", "Scala", "Kotlin", "Swift", "Erlang", "Java8"'
 typeoutFallback: "Season"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {link: "https://jorgegalindocruces.typeform.com/to/wN2T6Q", text: "Become a speaker"}
+# - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About Lambda World"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "The Conference", image: "conference.jpg", text: "The biggest Functional programming event in the country carefully crafted for you by 47 Degrees, Scala and Java community!" }
+ - {title: "The City", image: "city.jpg", text: "Discover Cadiz, one of the most beautiful cities in Spain. Not kidding!. " }
+ - {title: "The Workshops", image: "workshop.jpg", text: "Workshops, hands-on experience, hacking and debugging. Come and tame your favourite fucntional languages!" }
+# - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "250", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "16", specialCharacter: "+", info: "hours", detail: "of pure functional technologies"}
+ - {count: "16", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -90,34 +91,33 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
+eventLocationName: "Aulario La Bomba. Cádiz"
+eventLocationLink: "https://plus.google.com/114799348666220805362/about?gl=es&hl=es"
+eventStreetAddress: "Next to Caleta beach"
+eventAddressLocality: "Cádiz"
+eventAddressLocalityRegion: "Andalucía"
+eventPostalCode: "11001"
+eventAddressCountry: "Spain"
+eventStartTime: "2015-01-31T10:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
-
+eventEndTime: "2015-01-31T20:00"
+eventPlaceCoordinates: "36.537189, -6.301627"
+mapCenterCoordinates: "36.537189, -6.301627"
+mapMobileCenterCoordinates: "36.537189, -6.301627"
 # Venue Block
 venueBlockTitle: "Venue"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "Aulario La Bomba"
+venueFeatures: ["In Cádiz downtown", "Two tracks", "A lot of activities"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterHashTag: "lambda_world"
+twitterFeed: "http://enterwebdesign.es/blog_jgc/tweetledee/searchjson.php?q=lambda_world"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -128,7 +128,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+subscribeInfo: "Registration will be open around end of September. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
@@ -136,67 +136,71 @@ ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lu
 ticketsOffers:
  -
   name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
+  price: "75"
+  priceCurrency: "€"
   ticketsNumber: "150"
-  ribbon: "-5%"
+  ribbon: "-25%"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
+  ticketContentList: ["Access guaranteed to all the tracks", "Lunch included", "Close party and beers included"]
+  validFrom: "2015-10-01T00:00"
+  validThrough: "2015-10-23T23:59"
+  disabled: true
  -
   name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
+  price: "100"
+  priceCurrency: "€"
   ticketsNumber: "100"
-  ribbon: "-20%"
+  ribbon: "-50%"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
+  ticketContentList: ["Access guaranteed to all the tracks", "Lunch included", "Close party and beers included"]
+  validFrom: "2015-10-01T00:00"
+  validThrough: "2015-10-23T23:59"
   disabled: true
  -
   name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
+  price: "50"
+  priceCurrency: "€"
   ticketsNumber: "50"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
+  ticketContentList: ["Access guaranteed to all the tracks", "Lunch included", "Close party and beers included"]
+  validFrom: "2015-10-01T00:00"
+  validThrough: "2015-10-23T23:59"
+  disabled: true
 
 # Footer
 socialLinks:
  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ - {link: "https://twitter.com/lambda_world", icon: "twitter"}
+ - {link: "https://facebook.com/Lambda_World", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "http://www.47deg.com", text: "47 Degrees"}
+   - {link: "http://www.meetup.com/Malaga-Scala/", text: "Scala User Group - Malaga"}
+   - {link: "https://plus.google.com/communities/100722318999844603412", text: "Java User Group - Madrid"}
+   - {link: "http://www.meetup.com/Scala-Programming-Madrid/", text: "Scala User Group - Madrid"}
+
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:lambda.es@gmail.com", text: "lambda.es@gmail.com"}
  -
-  title: "FAQ"
+  title: "Code of Conduct"
   links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {permalink: "http://berlincodeofconduct.org/", text: "Code of Conduct"}
+
 
 # Blog
 blogTitle: "Latest news"
 blogCommentsEnabled: true
-discusShortName: "devfestua"
+discusShortName: "lambdaworld"
 
 # Speakers List Block
 showSessions: true
@@ -213,13 +217,13 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapCenterCoordinates: "36.537189, -6.301627"
+logisticsMapMobileCenterCoordinates: "36.537189, -6.301627"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"
-directionDetailsTitle: "Get around Lviv"
+directionDetailsTitle: "Get around Cadiz"
 directionDetailsCards:
  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
@@ -231,28 +235,24 @@ directionDetailsWideCards:
    -
     title: "Hotels"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "http://www.hotelconventocadiz.com/", text: "Hotel Convento Cádiz"}
+     - {link: "http://www.booking.com/hotel/es/la-catedral-cadiz.es.html", text: "Hotel Catedral"}
+     - {link: "http://www.booking.com/hotel/es/patagonia-sur.es.html", text: "Hotel Patagonia Sur"}
    -
     title: "Registration"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "http://www.hotelconventocadiz.com/", text: "Hotel Convento Cádiz"}
+     - {link: "http://www.booking.com/hotel/es/la-catedral-cadiz.es.html", text: "Hotel Catedral"}
+     - {link: "http://www.booking.com/hotel/es/patagonia-sur.es.html", text: "Hotel Patagonia Sur"}
    -
     title: "Attendance Details"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "http://es.wikipedia.org/wiki/Playa_de_La_Caleta_%28C%C3%A1diz%29", text: "Playa de la Caleta"}
+     - {link: "http://es.wikipedia.org/wiki/La_Vi%C3%B1a_%28C%C3%A1diz%29", text: "La Viña"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
-enableHackathon: true
+enableHackathon: false
 
 # Hackathon About Block
 aboutHackathonTitle: "Meet our themes"
@@ -282,9 +282,9 @@ hackathonAddressLocalityRegion: "Lvivska"
 hackathonPostalCode: "79000"
 hackathonAddressCountry: "Ukraine"
 hackathonTimeTitle: "Hack through"
-hackathonStartTime: "2014-10-24T10:00"
+hackathonStartTime: "2015-10-24T10:00"
 hackathonDoorTime: "09:00"
-hackathonEndTime: "2014-10-25T00:00"
+hackathonEndTime: "2015-10-25T00:00"
 viewOnMap: "View on Google Maps"
 hackathonPlaceCoordinates: "49.840999, 24.031144"
 hackathonMapCenterCoordinates: "49.840696, 24.028754"
